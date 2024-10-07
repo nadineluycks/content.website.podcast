@@ -1,0 +1,89 @@
+* {
+    margin: 0.25em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0em;
+}
+
+body {
+    background-color: rgb(243, 239, 235);
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li {
+    padding: 1em;
+}
+
+li:hover {
+    background-color: pink;
+    transition: 250ms ease;
+    border-radius: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+main article {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 192, 203);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 2em;
+}
+
+main>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+main>div article {
+    width: 30%;
+}
+
+main article>div {
+    display: flex;
+    align-items: flex-start;
+}
+/* een klasgenoot heeft mij geholpen met de > bij de divs te plaatsen zodat mijn flexbox het deed. Ik weet nu waarom het niet werkte en snap ook wat > inhoud */
+
+Header img {
+    width: 10em;
+    border-radius: 50%;
+}
+
+main div img {
+    align-items: center;
+    width: 50%;
+}
+
+main section {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 192, 203);
+    margin: 2em;
+    padding: 4em;
+    border-radius: 5em;
+}
+
+main section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+strong {
+    font-weight: bold;
+    font-size: larger;
+}
+
+iframe {
+    border: none
+}
